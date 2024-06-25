@@ -1,0 +1,9 @@
+lista = [ ]
+
+while True:
+    elemento = input("Digite um algo para adicionar à lista (ou 'parar' para terminar): ")
+    if elemento == "parar":
+        break
+    lista.append(elemento)
+
+print("Lista completa: ", lista)
